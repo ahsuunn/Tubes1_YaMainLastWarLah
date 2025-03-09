@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jQibTSXoMtM=",
+  "dgSpecHash": "ZyMHVaMpZ74=",
   "success": true,
-  "projectFilePath": "C:\\Users\\thema\\Informatics\\Language\\C#\\StarterTubes1\\TemplateBot\\TemplateBot.csproj",
+  "projectFilePath": "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\main-bot\\TemplateBot.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\thema\\.nuget\\packages\\microsoft.build.locator\\1.7.8\\microsoft.build.locator.1.7.8.nupkg.sha512",
     "C:\\Users\\thema\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
