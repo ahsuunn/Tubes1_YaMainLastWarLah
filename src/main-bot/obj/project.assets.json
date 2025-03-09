@@ -823,11 +823,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\main-bot\\TemplateBot.csproj",
-      "projectName": "TemplateBot",
-      "projectPath": "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\main-bot\\TemplateBot.csproj",
+      "projectUniqueName": "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\Main-bot\\Main-bot.csproj",
+      "projectName": "Main-bot",
+      "projectPath": "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\Main-bot\\Main-bot.csproj",
       "packagesPath": "C:\\Users\\thema\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\main-bot\\obj\\",
+      "outputPath": "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\Main-bot\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\thema\\AppData\\Roaming\\NuGet\\NuGet.Config"
