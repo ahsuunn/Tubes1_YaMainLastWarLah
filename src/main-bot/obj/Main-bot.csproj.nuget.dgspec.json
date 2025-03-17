@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\main-bot\\Main-bot.csproj": {}
+    "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\Main-bot\\Main-bot.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\main-bot\\Main-bot.csproj": {
+    "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\Main-bot\\Main-bot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\main-bot\\Main-bot.csproj",
+        "projectUniqueName": "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\Main-bot\\Main-bot.csproj",
         "projectName": "Main-bot",
-        "projectPath": "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\main-bot\\Main-bot.csproj",
+        "projectPath": "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\Main-bot\\Main-bot.csproj",
         "packagesPath": "C:\\Users\\thema\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\main-bot\\obj\\",
+        "outputPath": "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\Main-bot\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\thema\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -69,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
