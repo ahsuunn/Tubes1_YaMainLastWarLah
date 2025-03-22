@@ -1,0 +1,13 @@
+C:\Users\thema\Informatics\Language\C#\Tubes1_YaMainLastWarLah\src\Robocode.TankRoyale.BotApi\bin\Debug\net9.0\Robocode.TankRoyale.BotApi.deps.json
+C:\Users\thema\Informatics\Language\C#\Tubes1_YaMainLastWarLah\src\Robocode.TankRoyale.BotApi\bin\Debug\net9.0\Robocode.TankRoyale.BotApi.dll
+C:\Users\thema\Informatics\Language\C#\Tubes1_YaMainLastWarLah\src\Robocode.TankRoyale.BotApi\bin\Debug\net9.0\Robocode.TankRoyale.BotApi.pdb
+C:\Users\thema\Informatics\Language\C#\Tubes1_YaMainLastWarLah\src\Robocode.TankRoyale.BotApi\obj\Debug\net9.0\Robocode.TankRoyale.BotApi.csproj.AssemblyReference.cache
+C:\Users\thema\Informatics\Language\C#\Tubes1_YaMainLastWarLah\src\Robocode.TankRoyale.BotApi\obj\Debug\net9.0\Robocode.TankRoyale.BotApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thema\Informatics\Language\C#\Tubes1_YaMainLastWarLah\src\Robocode.TankRoyale.BotApi\obj\Debug\net9.0\Robocode.TankRoyale.BotApi.AssemblyInfoInputs.cache
+C:\Users\thema\Informatics\Language\C#\Tubes1_YaMainLastWarLah\src\Robocode.TankRoyale.BotApi\obj\Debug\net9.0\Robocode.TankRoyale.BotApi.AssemblyInfo.cs
+C:\Users\thema\Informatics\Language\C#\Tubes1_YaMainLastWarLah\src\Robocode.TankRoyale.BotApi\obj\Debug\net9.0\Robocode.TankRoyale.BotApi.csproj.CoreCompileInputs.cache
+C:\Users\thema\Informatics\Language\C#\Tubes1_YaMainLastWarLah\src\Robocode.TankRoyale.BotApi\obj\Debug\net9.0\Robocode.TankRoyale.BotApi.sourcelink.json
+C:\Users\thema\Informatics\Language\C#\Tubes1_YaMainLastWarLah\src\Robocode.TankRoyale.BotApi\obj\Debug\net9.0\Robocode.TankRoyale.BotApi.dll
+C:\Users\thema\Informatics\Language\C#\Tubes1_YaMainLastWarLah\src\Robocode.TankRoyale.BotApi\obj\Debug\net9.0\refint\Robocode.TankRoyale.BotApi.dll
+C:\Users\thema\Informatics\Language\C#\Tubes1_YaMainLastWarLah\src\Robocode.TankRoyale.BotApi\obj\Debug\net9.0\Robocode.TankRoyale.BotApi.pdb
+C:\Users\thema\Informatics\Language\C#\Tubes1_YaMainLastWarLah\src\Robocode.TankRoyale.BotApi\obj\Debug\net9.0\ref\Robocode.TankRoyale.BotApi.dll

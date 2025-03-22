@@ -1,0 +1,10 @@
+{
+  "name": "Dwifungsi",
+  "version": "1.0",
+  "authors": ["Ahsan"],
+  "description": "Punya dua fungsi kalo banyak musuh kabur, kalo sepi ngelock",
+  "homepage": "",
+  "countryCodes": ["id"],
+  "platform": ".Net 9.0",
+  "programmingLang": "C# 10.0"
+}

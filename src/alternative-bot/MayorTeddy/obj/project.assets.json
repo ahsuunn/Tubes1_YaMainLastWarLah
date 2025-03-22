@@ -823,11 +823,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\alternative-bot\\AltBot1\\AltBot1.csproj",
+      "projectUniqueName": "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\alternative-bot\\MayorTeddy\\AltBot1.csproj",
       "projectName": "AltBot1",
-      "projectPath": "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\alternative-bot\\AltBot1\\AltBot1.csproj",
+      "projectPath": "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\alternative-bot\\MayorTeddy\\AltBot1.csproj",
       "packagesPath": "C:\\Users\\thema\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\alternative-bot\\AltBot1\\obj\\",
+      "outputPath": "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\alternative-bot\\MayorTeddy\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\thema\\AppData\\Roaming\\NuGet\\NuGet.Config"

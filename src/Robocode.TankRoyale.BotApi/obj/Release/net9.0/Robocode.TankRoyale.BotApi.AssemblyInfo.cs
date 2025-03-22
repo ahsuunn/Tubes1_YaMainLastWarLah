@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright 2022 Flemming Nørnberg Larsen")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute(".Net API library for developing bots for Robocode Tank Royale")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("0.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.0.0-internal.custom-build+a87df580b14c5dff67bdda49eb88dd4b69eab7d5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.0.0-internal.custom-build+d4eddae1eef7c9d559e1015a889d82a8a3ae4dd4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Robocode.TankRoyale.BotApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Bot API for Robocode Tank Royale")]
 [assembly: System.Reflection.AssemblyVersionAttribute("0.0.0.0")]
