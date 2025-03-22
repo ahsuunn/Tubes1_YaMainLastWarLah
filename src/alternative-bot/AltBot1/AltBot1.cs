@@ -54,19 +54,19 @@ public class AltBot1 : Bot
                 double turnAngle = 0;
 
                 // Check if bot is near a wall and facing towards it
-                if (distanceToLeftWall < wallMargin && CalcBearing(180) < 60) // Facing left wall
+                if (distanceToLeftWall < wallMargin && CalcBearing(180) < 45) // Facing left wall
                 { 
                     turnAngle = 90;
                 }
-                else if (distanceToRightWall < wallMargin && CalcBearing(0) < 60) // Facing right wall
+                else if (distanceToRightWall < wallMargin && CalcBearing(0) < 45) // Facing right wall
                 {
                     turnAngle = -90;
                 }
-                else if (distanceToTopWall < wallMargin && CalcBearing(90) < 60) // Facing top wall
+                else if (distanceToTopWall < wallMargin && CalcBearing(90) < 45) // Facing top wall
                 {
                     turnAngle = 90;
                 }
-                else if (distanceToBottomWall < wallMargin && CalcBearing(270) < 60) // Facing bottom wall
+                else if (distanceToBottomWall < wallMargin && CalcBearing(270) < 45) // Facing bottom wall
                 {
                     turnAngle = -90;
                 }
@@ -89,9 +89,9 @@ public class AltBot1 : Bot
     {
         double enemyX = e.X;
         double enemyY = e.Y;
-        enemyDistance = DistanceTo(e.X, e.Y);
-        SetFirepower(enemyDistance);    
-        SetFire(firepower);
+        // enemyDistance = DistanceTo(e.X, e.Y);
+        // SetFirepower(3);    
+        SetFire(3);
 
         // double radarTurn = RadarBearingTo(e.X, e.Y);
         

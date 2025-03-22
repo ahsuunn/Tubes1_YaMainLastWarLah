@@ -1,8 +1,4 @@
 C:\Users\thema\Informatics\Language\C#\Tubes1_YaMainLastWarLah\src\alternative-bot\AltBot3\bin\Debug\net9.0\AltBot3.exe
-C:\Users\thema\Informatics\Language\C#\Tubes1_YaMainLastWarLah\src\alternative-bot\AltBot3\bin\Debug\net9.0\AltBot3.deps.json
-C:\Users\thema\Informatics\Language\C#\Tubes1_YaMainLastWarLah\src\alternative-bot\AltBot3\bin\Debug\net9.0\AltBot3.runtimeconfig.json
-C:\Users\thema\Informatics\Language\C#\Tubes1_YaMainLastWarLah\src\alternative-bot\AltBot3\bin\Debug\net9.0\AltBot3.dll
-C:\Users\thema\Informatics\Language\C#\Tubes1_YaMainLastWarLah\src\alternative-bot\AltBot3\bin\Debug\net9.0\AltBot3.pdb
 C:\Users\thema\Informatics\Language\C#\Tubes1_YaMainLastWarLah\src\alternative-bot\AltBot3\bin\Debug\net9.0\Microsoft.Build.Locator.dll
 C:\Users\thema\Informatics\Language\C#\Tubes1_YaMainLastWarLah\src\alternative-bot\AltBot3\bin\Debug\net9.0\Microsoft.Extensions.Configuration.dll
 C:\Users\thema\Informatics\Language\C#\Tubes1_YaMainLastWarLah\src\alternative-bot\AltBot3\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
@@ -29,5 +25,3 @@ C:\Users\thema\Informatics\Language\C#\Tubes1_YaMainLastWarLah\src\alternative-b
 C:\Users\thema\Informatics\Language\C#\Tubes1_YaMainLastWarLah\src\alternative-bot\AltBot3\obj\Debug\net9.0\AltBot3.dll
 C:\Users\thema\Informatics\Language\C#\Tubes1_YaMainLastWarLah\src\alternative-bot\AltBot3\obj\Debug\net9.0\refint\AltBot3.dll
 C:\Users\thema\Informatics\Language\C#\Tubes1_YaMainLastWarLah\src\alternative-bot\AltBot3\obj\Debug\net9.0\AltBot3.pdb
-C:\Users\thema\Informatics\Language\C#\Tubes1_YaMainLastWarLah\src\alternative-bot\AltBot3\obj\Debug\net9.0\AltBot3.genruntimeconfig.cache
-C:\Users\thema\Informatics\Language\C#\Tubes1_YaMainLastWarLah\src\alternative-bot\AltBot3\obj\Debug\net9.0\ref\AltBot3.dll
