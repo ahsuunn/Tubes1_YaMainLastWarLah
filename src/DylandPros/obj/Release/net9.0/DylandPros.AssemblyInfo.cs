@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DylandPros")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cccfd7e010b0bc9a19238a8e7f09ed3c8463635c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed3b7a1c8422119a275a542735348b5a2abc057c")]
 [assembly: System.Reflection.AssemblyProductAttribute("DylandPros")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DylandPros")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
