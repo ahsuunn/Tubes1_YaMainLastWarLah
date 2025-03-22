@@ -8,33 +8,36 @@ using Robocode.TankRoyale.BotApi.Events;
 
 public class AltBot2 : Bot
 {   
-    /* A bot that drives forward and backward, and fires a bullet */
     static void Main(string[] args)
     {
         new AltBot2().Start();
     }
     Random random = new Random();
 
-
+    
     AltBot2() : base(BotInfo.FromFile("AltBot2.json")) { }
-    private Dictionary<int?, double> enemyDistances = new Dictionary<int?, double>();
-    private const int MaxLostTurns = 15;
     public override void Run()
     {
-        /* Customize bot colors, read the documentation for more information */
-        BodyColor = Color.Gray;
+        GunColor = Color.Aquamarine;
+        TurretColor = Color.Aquamarine;
+        ScanColor = Color.Aquamarine;
+        BulletColor = Color.Aquamarine;
+        TracksColor = Color.Aquamarine;
+        BodyColor = Color.White;
+        RadarColor = Color.White;
+
         while (IsRunning)
         {
             if(EnemyCount < 4){
                 SetForward(100);
-                SetTurnLeft(360);
-                SetRescan();
+                SetTurnLeft(10);
+                SetTurnGunLeft(10);
                 Go();
             }
             else{
                 WaitFor(new TurnCompleteCondition(this));
 
-                double wallMargin = 100; // Minimum safe distance from walls
+                double wallMargin = 100; 
                 double battlefieldWidth = ArenaWidth;
                 double battlefieldHeight = ArenaHeight;
 
@@ -45,72 +48,54 @@ public class AltBot2 : Bot
 
                 double turnAngle = 0;
 
-                // Check if bot is near a wall and facing towards it
-                if (distanceToLeftWall < wallMargin && CalcBearing(180) < 45) // Facing left wall
+                if (distanceToLeftWall < wallMargin && CalcBearing(180) < 45)
                 { 
                     turnAngle = 90;
                 }
-                else if (distanceToRightWall < wallMargin && CalcBearing(0) < 45) // Facing right wall
+                else if (distanceToRightWall < wallMargin && CalcBearing(0) < 45)
                 {
                     turnAngle = -90;
                 }
-                else if (distanceToTopWall < wallMargin && CalcBearing(90) < 45) // Facing top wall
+                else if (distanceToTopWall < wallMargin && CalcBearing(90) < 45) 
                 {
                     turnAngle = 90;
                 }
-                else if (distanceToBottomWall < wallMargin && CalcBearing(270) < 45) // Facing bottom wall
+                else if (distanceToBottomWall < wallMargin && CalcBearing(270) < 45)
                 {
                     turnAngle = -90;
                 }
                 else
-                {
-                    // If not near a wall, choose a random turn angle
+                { 
                     turnAngle = random.Next(-180, 180);
                 }
 
-                SetForward(100);
+                SetForward(60);
                 SetTurnRight(turnAngle);
             }
         }
     }
 
-    // public override void OnTick(TickEvent e){
-    //     if (!targetVisible){
-    //         if (moveCooldown <= 0){
-    //             SetForward(rng.Next(100, 300));
-    //             SetTurnRight(rng.Next(-90, 90));
-    //             moveCooldown = rng.Next(20, 40);
-    //         }
-    //         moveCooldown--;
-    //         SetTurnGunRight(45);
-    //     }
-    //     else{
-    //         SetForward(20);
-    //         SetTurnRight(5);
-    //         SetTurnGunRight(20);
-
-    //         turnsSinceLastScan++;
-    //         if (turnsSinceLastScan > MaxLostTurns){
-    //             targetVisible = false;
-    //             turnsSinceLastScan = 0;
-    //         }
-    //     }
-    // }
     public override void OnScannedBot(ScannedBotEvent e)
     {
         if(EnemyCount < 4){
             Interruptible = true;
-            double turnDirection  = CalcBearing(e.Direction); 
+            double turnDirection  = BearingTo(e.X,e.Y); 
+            var bearingFromGun = GunBearingTo(e.X, e.Y);
             Console.WriteLine("Turning: " + e.Direction);
+            SetTurnGunLeft(bearingFromGun/2);
             SetTurnLeft(turnDirection);
+            
             Console.WriteLine("Turn direction: " + turnDirection + " Current Direction: " + Direction);
             SetForward(100);
             Console.WriteLine("Forward");
-            SetFire(2);   
-            Console.WriteLine("Firing");
+            
+            SetFire(FiringPower(DistanceTo(e.X, e.Y)));
+            if (bearingFromGun == 0){
+                Rescan();
+            }
         }
         else{
-            SetFire(3);
+            SetFire(FiringPower(DistanceTo(e.X, e.Y)));
             WaitFor(new TurnCompleteCondition(this));
         }
 
@@ -118,15 +103,37 @@ public class AltBot2 : Bot
 
     public override void OnHitBot(HitBotEvent e)
     {
-        Console.WriteLine("Ouch! I hit a bot at " + e.X + ", " + e.Y);
+        if (e.IsRammed){
+            Fire(3);
+        }
+        else{
+            Back(50);
+            TurnLeft(90 + random.Next(45));
+        }
+    }
+
+    public override void OnHitByBullet(HitByBulletEvent bulletHitBotEvent)
+    {
+        TurnRight(60);
     }
 
     public override void OnHitWall(HitWallEvent e)
     {
-        Console.WriteLine("Ouch! I hit a wall, must turn back!");
+        Back(50 + random.Next(30));
+        TurnLeft(90 + random.Next(45));
     }
+    public double FiringPower(double distance){
+        if(distance > 200){
+            return 1;
+        }
+        else if (distance > 100){
+            return 2;
+        }
+        else{
+            return 3;
+        }
+    } 
 
-    /* Read the documentation for more events and methods */
 }
 
 
@@ -141,7 +148,6 @@ public class TurnCompleteCondition : Condition
 
     public override bool Test()
     {
-        // turn is complete when the remainder of the turn is zero
         return bot.TurnRemaining == 0;
     }
 }
