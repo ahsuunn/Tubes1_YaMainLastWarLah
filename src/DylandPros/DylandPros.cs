@@ -1,4 +1,5 @@
 using System;
+using System.Drawing;
 using Robocode.TankRoyale.BotApi;
 using Robocode.TankRoyale.BotApi.Events;
 
@@ -8,13 +9,23 @@ public class DylandPros : Bot {
     private readonly Random rng = new();
     private bool targetVisible = false;
     private int turnsSinceLastScan = 0;
-    private const int MaxLostTurns = 15;
     private int moveCooldown = 0;
+
+    // Batas maksimal "kehilangan target" dalam tick
+    private int MaxLostTurns => EnemyCount < 4 ? 40 : 15;
 
     DylandPros() : base(BotInfo.FromFile("DylandPros.json")) { }
 
     public override void Run(){
-        Console.WriteLine("DylandPros lagi berak...");
+        Console.WriteLine("DylandPros siap menyapu musuh...");
+
+        BodyColor = Color.White;
+        TurretColor = Color.Black;
+        RadarColor = Color.Red;
+        BulletColor = Color.Red;
+        ScanColor = Color.Red;
+        TracksColor = Color.Black;
+        GunColor = Color.Red;
     }
 
     public override void OnTick(TickEvent e){
@@ -25,12 +36,13 @@ public class DylandPros : Bot {
                 moveCooldown = rng.Next(20, 40);
             }
             moveCooldown--;
-            SetTurnGunRight(45);
+            SetTurnGunRight(45); // Scan sambil gerak
         }
-        else{
-            SetForward(20);
-            SetTurnRight(5);
-            SetTurnGunRight(20);
+        else {
+            // Lagi nge-lock musuh
+            SetForward(20); // Gerak pelan
+            SetTurnRight(5); // Zig-zag kecil
+            SetTurnGunRight(20); // Terus track musuh
 
             turnsSinceLastScan++;
             if (turnsSinceLastScan > MaxLostTurns){
@@ -47,8 +59,10 @@ public class DylandPros : Bot {
         double bearingFromGun = GunBearingTo(e.X, e.Y);
         SetTurnGunLeft(bearingFromGun);
 
-        if (Math.Abs(bearingFromGun) <= 3 && GunHeat == 0){
-            double power = Math.Min(3 - Math.Abs(bearingFromGun), Energy - 0.1);
+        // 🔥 Lebih agresif nembak
+        if (Math.Abs(bearingFromGun) <= 10 && GunHeat == 0){
+            double distance = DistanceBetween(e.X, e.Y);
+            double power = Math.Min(3.0, Energy > 30 ? 2.5 : 1.0); // Dinamis power
             Fire(power);
         }
 
@@ -70,5 +84,12 @@ public class DylandPros : Bot {
     public override void OnHitByBullet(HitByBulletEvent e){
         TurnLeft(rng.Next(-90, 90));
         Forward(rng.Next(40, 100));
+    }
+
+    // Helper: hitung jarak ke musuh
+    private double DistanceBetween(double x, double y){
+        double dx = x - X;
+        double dy = y - Y;
+        return Math.Sqrt(dx * dx + dy * dy);
     }
 }

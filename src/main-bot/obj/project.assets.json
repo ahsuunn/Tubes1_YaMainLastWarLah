@@ -823,11 +823,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\thema\\Informatics\\Language\\C#\\StarterTubes1\\TemplateBot\\TemplateBot.csproj",
-      "projectName": "TemplateBot",
-      "projectPath": "C:\\Users\\thema\\Informatics\\Language\\C#\\StarterTubes1\\TemplateBot\\TemplateBot.csproj",
+      "projectUniqueName": "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\Main-bot\\Main-bot.csproj",
+      "projectName": "Main-bot",
+      "projectPath": "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\Main-bot\\Main-bot.csproj",
       "packagesPath": "C:\\Users\\thema\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\thema\\Informatics\\Language\\C#\\StarterTubes1\\TemplateBot\\obj\\",
+      "outputPath": "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\Main-bot\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\thema\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -885,7 +885,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
