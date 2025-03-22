@@ -1,0 +1,10 @@
+{
+  "name": "Aedes Aegypti",
+  "version": "1.0",
+  "authors": ["fithra"],
+  "description": "Bot yang bergerak kaya nyamuk, ngelock satu, kabur, ngelock lain, kabur, terus aja",
+  "homepage": "",
+  "countryCodes": ["id"],
+  "platform": ".Net 9.0",
+  "programmingLang": "C# 10.0"
+}

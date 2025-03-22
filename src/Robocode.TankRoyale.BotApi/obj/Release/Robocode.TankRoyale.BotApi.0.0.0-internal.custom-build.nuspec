@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Robocode.TankRoyale.BotApi</id>
+    <version>0.0.0-internal.custom-build</version>
+    <title>Bot API for Robocode Tank Royale</title>
+    <authors>Flemming Nørnberg Larsen</authors>
+    <license type="expression">Apache-2.0</license>
+    <licenseUrl>https://licenses.nuget.org/Apache-2.0</licenseUrl>
+    <icon>icon.png</icon>
+    <projectUrl>https://robocode-dev.github.io/tank-royale/</projectUrl>
+    <description>.Net API library for developing bots for Robocode Tank Royale</description>
+    <copyright>Copyright 2022 Flemming Nørnberg Larsen</copyright>
+    <tags>Robocode,TankRoyale,Tank,Royale,Bot</tags>
+    <repository type="git" commit="996cb17381c500674d721ac987acadab7694817a" />
+    <dependencies>
+      <group targetFramework="net9.0">
+        <dependency id="Microsoft.Build.Locator" version="1.7.8" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration" version="8.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Binder" version="8.0.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Json" version="8.0.0" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+        <dependency id="System.Text.Json" version="8.0.5" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/muhammadfithrarizki/Documents/Stima/Tubes1_YaMainLastWarLah/src/Robocode.TankRoyale.BotApi/bin/Release/net9.0/Robocode.TankRoyale.BotApi.dll" target="lib/net9.0/Robocode.TankRoyale.BotApi.dll" />
+    <file src="/Users/muhammadfithrarizki/Documents/Stima/Tubes1_YaMainLastWarLah/src/Robocode.TankRoyale.BotApi/icon.png" target="/icon.png" />
+  </files>
+</package>
