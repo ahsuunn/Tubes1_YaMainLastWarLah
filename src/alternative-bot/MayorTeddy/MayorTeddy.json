@@ -1,0 +1,10 @@
+{
+  "name": "Mayor Teddy",
+  "version": "1.0",
+  "authors": ["Ahsan"],
+  "description": "Bot ngindar ngindar biar ga kena",
+  "homepage": "",
+  "countryCodes": ["id"],
+  "platform": ".Net 9.0",
+  "programmingLang": "C# 10.0"
+}

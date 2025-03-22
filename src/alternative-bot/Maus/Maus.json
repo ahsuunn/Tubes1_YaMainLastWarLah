@@ -1,0 +1,10 @@
+{
+  "name": "Maus",
+  "version": "1.0",
+  "authors": ["Ahsan"],
+  "description": "Bot that evades bullet when there are a lot of enemy and lock target when there is little enemy left",
+  "homepage": "",
+  "countryCodes": ["id"],
+  "platform": ".Net 9.0",
+  "programmingLang": "C# 10.0"
+}

@@ -12,7 +12,7 @@
     <description>.Net API library for developing bots for Robocode Tank Royale</description>
     <copyright>Copyright 2022 Flemming Nørnberg Larsen</copyright>
     <tags>Robocode,TankRoyale,Tank,Royale,Bot</tags>
-    <repository type="git" commit="996cb17381c500674d721ac987acadab7694817a" />
+    <repository type="git" commit="a87df580b14c5dff67bdda49eb88dd4b69eab7d5" />
     <dependencies>
       <group targetFramework="net9.0">
         <dependency id="Microsoft.Build.Locator" version="1.7.8" exclude="Build,Analyzers" />
@@ -25,7 +25,7 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="/Users/muhammadfithrarizki/Documents/Stima/Tubes1_YaMainLastWarLah/src/Robocode.TankRoyale.BotApi/bin/Release/net9.0/Robocode.TankRoyale.BotApi.dll" target="lib/net9.0/Robocode.TankRoyale.BotApi.dll" />
-    <file src="/Users/muhammadfithrarizki/Documents/Stima/Tubes1_YaMainLastWarLah/src/Robocode.TankRoyale.BotApi/icon.png" target="/icon.png" />
+    <file src="C:\Users\thema\Informatics\Language\C#\Tubes1_YaMainLastWarLah\src\Robocode.TankRoyale.BotApi\bin\Release\net9.0\Robocode.TankRoyale.BotApi.dll" target="lib\net9.0\Robocode.TankRoyale.BotApi.dll" />
+    <file src="C:\Users\thema\Informatics\Language\C#\Tubes1_YaMainLastWarLah\src\Robocode.TankRoyale.BotApi\icon.png" target="\icon.png" />
   </files>
 </package>

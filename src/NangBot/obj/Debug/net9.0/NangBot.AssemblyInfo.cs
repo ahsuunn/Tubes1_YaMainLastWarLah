@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NangBot")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7edc873b91b95d4341afedbfed39264a5d90f8d3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a87df580b14c5dff67bdda49eb88dd4b69eab7d5")]
 [assembly: System.Reflection.AssemblyProductAttribute("NangBot")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NangBot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

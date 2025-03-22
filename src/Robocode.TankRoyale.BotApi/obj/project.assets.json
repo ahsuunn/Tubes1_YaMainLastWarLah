@@ -635,19 +635,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/muhammadfithrarizki/.nuget/packages/": {}
+    "C:\\Users\\thema\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "0.0.0-internal.custom-build",
     "restore": {
-      "projectUniqueName": "/Users/muhammadfithrarizki/Documents/Stima/Tubes1_YaMainLastWarLah/src/Robocode.TankRoyale.BotApi/Robocode.TankRoyale.BotApi.csproj",
+      "projectUniqueName": "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\Robocode.TankRoyale.BotApi\\Robocode.TankRoyale.BotApi.csproj",
       "projectName": "Robocode.TankRoyale.BotApi",
-      "projectPath": "/Users/muhammadfithrarizki/Documents/Stima/Tubes1_YaMainLastWarLah/src/Robocode.TankRoyale.BotApi/Robocode.TankRoyale.BotApi.csproj",
-      "packagesPath": "/Users/muhammadfithrarizki/.nuget/packages/",
-      "outputPath": "/Users/muhammadfithrarizki/Documents/Stima/Tubes1_YaMainLastWarLah/src/Robocode.TankRoyale.BotApi/obj/",
+      "projectPath": "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\Robocode.TankRoyale.BotApi\\Robocode.TankRoyale.BotApi.csproj",
+      "packagesPath": "C:\\Users\\thema\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\Robocode.TankRoyale.BotApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/muhammadfithrarizki/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\thema\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -718,7 +718,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

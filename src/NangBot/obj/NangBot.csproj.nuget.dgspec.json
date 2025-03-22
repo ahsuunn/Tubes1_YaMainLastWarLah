@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\COOLYEAH\\SMT_4\\STIMA\\Tubes_1\\Tubes1_YaMainLastWarLah\\src\\NangBot\\NangBot.csproj": {}
+    "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\NangBot\\NangBot.csproj": {}
   },
   "projects": {
-    "C:\\COOLYEAH\\SMT_4\\STIMA\\Tubes_1\\Tubes1_YaMainLastWarLah\\src\\NangBot\\NangBot.csproj": {
+    "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\NangBot\\NangBot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\COOLYEAH\\SMT_4\\STIMA\\Tubes_1\\Tubes1_YaMainLastWarLah\\src\\NangBot\\NangBot.csproj",
+        "projectUniqueName": "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\NangBot\\NangBot.csproj",
         "projectName": "NangBot",
-        "projectPath": "C:\\COOLYEAH\\SMT_4\\STIMA\\Tubes_1\\Tubes1_YaMainLastWarLah\\src\\NangBot\\NangBot.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\COOLYEAH\\SMT_4\\STIMA\\Tubes_1\\Tubes1_YaMainLastWarLah\\src\\NangBot\\obj\\",
+        "projectPath": "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\NangBot\\NangBot.csproj",
+        "packagesPath": "C:\\Users\\thema\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\NangBot\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\thema\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -69,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
