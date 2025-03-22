@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BotFithra")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+996cb17381c500674d721ac987acadab7694817a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed3b7a1c8422119a275a542735348b5a2abc057c")]
 [assembly: System.Reflection.AssemblyProductAttribute("BotFithra")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BotFithra")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

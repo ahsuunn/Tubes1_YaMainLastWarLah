@@ -1,0 +1,6 @@
+/Users/muhammadfithrarizki/Documents/Stima/Tubes1_YaMainLastWarLah/src/PaintingBot/obj/Release/net9.0/PaintingBot.csproj.AssemblyReference.cache
+/Users/muhammadfithrarizki/Documents/Stima/Tubes1_YaMainLastWarLah/src/PaintingBot/obj/Release/net9.0/PaintingBot.GeneratedMSBuildEditorConfig.editorconfig
+/Users/muhammadfithrarizki/Documents/Stima/Tubes1_YaMainLastWarLah/src/PaintingBot/obj/Release/net9.0/PaintingBot.AssemblyInfoInputs.cache
+/Users/muhammadfithrarizki/Documents/Stima/Tubes1_YaMainLastWarLah/src/PaintingBot/obj/Release/net9.0/PaintingBot.AssemblyInfo.cs
+/Users/muhammadfithrarizki/Documents/Stima/Tubes1_YaMainLastWarLah/src/PaintingBot/obj/Release/net9.0/PaintingBot.csproj.CoreCompileInputs.cache
+/Users/muhammadfithrarizki/Documents/Stima/Tubes1_YaMainLastWarLah/src/PaintingBot/obj/Release/net9.0/PaintingBot.sourcelink.json
