@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AEZAKMI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4eddae1eef7c9d559e1015a889d82a8a3ae4dd4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4525f0fb41690bb5a334079ae75b7a35c05e5deb")]
 [assembly: System.Reflection.AssemblyProductAttribute("AEZAKMI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AEZAKMI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

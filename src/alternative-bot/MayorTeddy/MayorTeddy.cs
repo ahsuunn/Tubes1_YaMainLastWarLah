@@ -16,7 +16,6 @@ public class MayorTeddy : Bot
     }
 
     MayorTeddy() : base(BotInfo.FromFile("MayorTeddy.json")) { }
-
     public override void Run()
     {
         enemies = EnemyCount;
@@ -25,6 +24,9 @@ public class MayorTeddy : Bot
         Random random = new Random();
 
 
+
+        AdjustGunForBodyTurn = true;
+        GunTurnRate = 15;
         BodyColor = Color.White;
         TurretColor = Color.White;
         RadarColor = Color.White;
@@ -69,7 +71,7 @@ public class MayorTeddy : Bot
                     turnAngle = random.Next(-180, 180);
                 }
 
-                SetForward(100);
+                SetForward(200);
                 SetTurnRight(turnAngle);
                 
 
@@ -82,7 +84,7 @@ public class MayorTeddy : Bot
     {
         double enemyX = e.X;
         double enemyY = e.Y;
-        SetFire(3);
+        SetFire(2);
         WaitFor(new TurnCompleteCondition(this));
     }
 
@@ -91,12 +93,14 @@ public class MayorTeddy : Bot
         if (movingForward)
         {
             SetBack(150);
+            SetTurnRight(90);
             movingForward = false;
             WaitFor(new TurnCompleteCondition(this));
         }
         else
         {
             SetForward(150);
+            SetTurnRight(-90);
             movingForward = true;
             WaitFor(new TurnCompleteCondition(this));
         }
