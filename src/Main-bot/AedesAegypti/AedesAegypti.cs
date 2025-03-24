@@ -11,7 +11,6 @@ public class AedesAegypti : Bot {
     private int turnsSinceLastScan = 0;
     private int moveCooldown = 0;
 
-    // Batas maksimal "kehilangan target" dalam tick
     private int MaxLostTurns => EnemyCount < 4 ? 40 : 15;
 
     AedesAegypti() : base(BotInfo.FromFile("AedesAegypti.json")) { }
@@ -36,13 +35,12 @@ public class AedesAegypti : Bot {
                 moveCooldown = rng.Next(20, 40);
             }
             moveCooldown--;
-            SetTurnGunRight(45); // Scan sambil gerak
+            SetTurnGunRight(45);
         }
         else {
-            // Lagi nge-lock musuh
-            SetForward(20); // Gerak pelan
-            SetTurnRight(5); // Zig-zag kecil
-            SetTurnGunRight(20); // Terus track musuh
+            SetForward(20); 
+            SetTurnRight(5);
+            SetTurnGunRight(20);
 
             turnsSinceLastScan++;
             if (turnsSinceLastScan > MaxLostTurns){
@@ -59,10 +57,8 @@ public class AedesAegypti : Bot {
         double bearingFromGun = GunBearingTo(e.X, e.Y);
         SetTurnGunLeft(bearingFromGun);
 
-        // 🔥 Lebih agresif nembak
         if (Math.Abs(bearingFromGun) <= 10 && GunHeat == 0){
-            double distance = DistanceBetween(e.X, e.Y);
-            double power = Math.Min(3.0, Energy > 30 ? 2.5 : 1.0); // Dinamis power
+            double power = Math.Min(3.0, Energy > 30 ? 2.5 : 1.0); 
             Fire(power);
         }
 
@@ -85,11 +81,3 @@ public class AedesAegypti : Bot {
         TurnLeft(rng.Next(-90, 90));
         Forward(rng.Next(40, 100));
     }
-
-    // Helper: hitung jarak ke musuh
-    private double DistanceBetween(double x, double y){
-        double dx = x - X;
-        double dy = y - Y;
-        return Math.Sqrt(dx * dx + dy * dy);
-    }
-}
