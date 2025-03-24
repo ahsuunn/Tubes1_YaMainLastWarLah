@@ -12,7 +12,7 @@
     <description>.Net API library for developing bots for Robocode Tank Royale</description>
     <copyright>Copyright 2022 Flemming Nørnberg Larsen</copyright>
     <tags>Robocode,TankRoyale,Tank,Royale,Bot</tags>
-    <repository type="git" commit="4525f0fb41690bb5a334079ae75b7a35c05e5deb" />
+    <repository type="git" commit="c25873a42be225e8fb440a2a97c0308e5e77c362" />
     <dependencies>
       <group targetFramework="net9.0">
         <dependency id="Microsoft.Build.Locator" version="1.7.8" exclude="Build,Analyzers" />

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Dwifungsi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4525f0fb41690bb5a334079ae75b7a35c05e5deb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c25873a42be225e8fb440a2a97c0308e5e77c362")]
 [assembly: System.Reflection.AssemblyProductAttribute("Dwifungsi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Dwifungsi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

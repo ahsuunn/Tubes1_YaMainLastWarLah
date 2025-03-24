@@ -658,11 +658,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\alternative-bot\\AedesAegypti\\AedesAegypti.csproj",
+      "projectUniqueName": "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\Main-bot\\AedesAegypti\\AedesAegypti.csproj",
       "projectName": "AedesAegypti",
-      "projectPath": "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\alternative-bot\\AedesAegypti\\AedesAegypti.csproj",
+      "projectPath": "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\Main-bot\\AedesAegypti\\AedesAegypti.csproj",
       "packagesPath": "C:\\Users\\thema\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\alternative-bot\\AedesAegypti\\obj\\",
+      "outputPath": "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\Main-bot\\AedesAegypti\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\thema\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -671,7 +671,7 @@
         "net9.0"
       ],
       "sources": {
-        "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\alternative-bot\\AedesAegypti\\packages": {}
+        "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\Main-bot\\AedesAegypti\\packages": {}
       },
       "frameworks": {
         "net9.0": {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\Main-bot\\Dwifungsi\\Dwifungsi.csproj": {}
+    "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\alternative-bot\\Dwifungsi\\Dwifungsi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\Main-bot\\Dwifungsi\\Dwifungsi.csproj": {
+    "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\alternative-bot\\Dwifungsi\\Dwifungsi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\Main-bot\\Dwifungsi\\Dwifungsi.csproj",
+        "projectUniqueName": "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\alternative-bot\\Dwifungsi\\Dwifungsi.csproj",
         "projectName": "Dwifungsi",
-        "projectPath": "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\Main-bot\\Dwifungsi\\Dwifungsi.csproj",
+        "projectPath": "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\alternative-bot\\Dwifungsi\\Dwifungsi.csproj",
         "packagesPath": "C:\\Users\\thema\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\Main-bot\\Dwifungsi\\obj\\",
+        "outputPath": "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\alternative-bot\\Dwifungsi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\thema\\AppData\\Roaming\\NuGet\\NuGet.Config"

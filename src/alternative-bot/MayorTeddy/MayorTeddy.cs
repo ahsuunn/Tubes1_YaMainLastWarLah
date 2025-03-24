@@ -23,8 +23,6 @@ public class MayorTeddy : Bot
         enemyDistance = 0 ;
         Random random = new Random();
 
-
-
         AdjustGunForBodyTurn = true;
         GunTurnRate = 15;
         BodyColor = Color.White;
@@ -39,7 +37,7 @@ public class MayorTeddy : Bot
         {
                 WaitFor(new TurnCompleteCondition(this));
 
-                double wallMargin = 100;
+                double wallMargin = 200;
                 double battlefieldWidth = ArenaWidth;
                 double battlefieldHeight = ArenaHeight;
 
@@ -50,19 +48,19 @@ public class MayorTeddy : Bot
 
                 double turnAngle = 0;
 
-                if (distanceToLeftWall < wallMargin && CalcBearing(180) < 45) 
+                if (distanceToLeftWall < wallMargin && CalcBearing(180) < 60) 
                 { 
                     turnAngle = 90;
                 }
-                else if (distanceToRightWall < wallMargin && CalcBearing(0) < 45)
+                else if (distanceToRightWall < wallMargin && CalcBearing(0) < 60)
                 {
                     turnAngle = -90;
                 }
-                else if (distanceToTopWall < wallMargin && CalcBearing(90) < 45) 
+                else if (distanceToTopWall < wallMargin && CalcBearing(90) < 60) 
                 {
                     turnAngle = 90;
                 }
-                else if (distanceToBottomWall < wallMargin && CalcBearing(270) < 45)
+                else if (distanceToBottomWall < wallMargin && CalcBearing(270) < 60)
                 {
                     turnAngle = -90;
                 }
@@ -92,17 +90,15 @@ public class MayorTeddy : Bot
     {
         if (movingForward)
         {
-            SetBack(150);
-            SetTurnRight(90);
+            Back(100);
+            TurnRight(90);
             movingForward = false;
-            WaitFor(new TurnCompleteCondition(this));
         }
         else
         {
-            SetForward(150);
-            SetTurnRight(-90);
+            Forward(100);
+            TurnRight(-90);
             movingForward = true;
-            WaitFor(new TurnCompleteCondition(this));
         }
     }
 }
