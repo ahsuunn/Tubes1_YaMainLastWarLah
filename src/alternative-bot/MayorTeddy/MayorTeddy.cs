@@ -20,7 +20,6 @@ public class MayorTeddy : Bot
     {
         enemies = EnemyCount;
         movingForward = true;
-        enemyDistance = 0 ;
         Random random = new Random();
 
         AdjustGunForBodyTurn = true;
