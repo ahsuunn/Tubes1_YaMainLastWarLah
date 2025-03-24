@@ -1,6 +1,6 @@
 # Tubes1_YaMainLastWarLah
 Repository ini dibuat untuk memenuhi Tugas Besar 1 Mata Kuliah Strategi Algoritma IF 2211 Semester 2 Tahun Ajaran 2024/2025.
-<b/>
+
 ## Implementasi Bot
 1. Bot Mayor Teddy
    Bot ini memiliki algoritma greedy dalam pergerakannya karena bot ini selalu bergerak secara random dengan memperhitungkan lokasinya terhadap tiap sisi tembok dan arah bot tersebut menghadap, dengan demikian bot ini dapat menghindari tembok dan menghindari tembakan musuh agar dapat selamat hingga akhir pertandingan. Selain itu bot ini juga mengimplementasikan greedy pada penembakannya, dengan senjatanya yang selalu berputar dan ketika radar mendeteksi musuh maka bot ini akan langsung menembakkan peluru dengan kekuatan 2, sehingga diharapkan bot ini dapat mengenai musuh yang langsung dideteksi olehnya. Dengan demikian bot ini dirancang untuk menghindari tembakan musuh ketika terdapat banyak bot di permainan.
