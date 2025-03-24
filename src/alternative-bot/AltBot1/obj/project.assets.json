@@ -818,19 +818,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\thema\\.nuget\\packages\\": {}
+    "/Users/muhammadfithrarizki/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\alternative-bot\\AltBot1\\AltBot1.csproj",
+      "projectUniqueName": "/Users/muhammadfithrarizki/Documents/Stima/Tubes1_YaMainLastWarLah/src/alternative-bot/AltBot1/AltBot1.csproj",
       "projectName": "AltBot1",
-      "projectPath": "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\alternative-bot\\AltBot1\\AltBot1.csproj",
-      "packagesPath": "C:\\Users\\thema\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\thema\\Informatics\\Language\\C#\\Tubes1_YaMainLastWarLah\\src\\alternative-bot\\AltBot1\\obj\\",
+      "projectPath": "/Users/muhammadfithrarizki/Documents/Stima/Tubes1_YaMainLastWarLah/src/alternative-bot/AltBot1/AltBot1.csproj",
+      "packagesPath": "/Users/muhammadfithrarizki/.nuget/packages/",
+      "outputPath": "/Users/muhammadfithrarizki/Documents/Stima/Tubes1_YaMainLastWarLah/src/alternative-bot/AltBot1/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\thema\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/muhammadfithrarizki/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -885,7 +885,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
